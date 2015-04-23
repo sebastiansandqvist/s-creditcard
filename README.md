@@ -1,5 +1,9 @@
 # s-creditcard 
+
+## WORK IN PROGRESS
+
 [![NPM version](https://img.shields.io/npm/v/s-creditcard.svg)](https://www.npmjs.com/package/s-creditcard) ![Dependencies](https://img.shields.io/david/sebastiansandqvist/s-creditcard.svg) [![build status](http://img.shields.io/travis/sebastiansandqvist/s-creditcard.svg)](https://travis-ci.org/sebastiansandqvist/s-creditcard) [![NPM license](https://img.shields.io/npm/l/s-creditcard.svg)](https://www.npmjs.com/package/s-creditcard)
+
 ## License
 Copyright (c) 2015, Sebastian Sandqvist <s.github@sparque.me>
 
