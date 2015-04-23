@@ -14,6 +14,21 @@ Input a credit card number (as a string) and it returns the type of credit card.
 card('4242424242424242') // returns 'visa'
 ```
 
+###### Supported card types
+* Visa (`visa`)
+* Mastercard (`mastercard`)
+* Discover (`discover`)
+* American Express (`amex`)
+* Diners Club (`dinersClub`)
+* JCB (`jcb`)
+* Carte Blance (`carteBlanche`)
+* Unionpay (`unionpay`)
+* Lasercard (`lasercard`)
+* Solo (`solo`)
+* Maestro (`maestro`)
+
+All other valid credit cards return `other`. Invalid credit cards return `none`. 
+
 ## License
 Copyright (c) 2015, Sebastian Sandqvist <s.github@sparque.me>
 
