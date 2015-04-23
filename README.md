@@ -1,6 +1,4 @@
-# s-creditcard 
-
-## WORK IN PROGRESS
+# s-creditcard
 
 [![NPM version](https://img.shields.io/npm/v/s-creditcard.svg)](https://www.npmjs.com/package/s-creditcard) ![Dependencies](https://img.shields.io/david/sebastiansandqvist/s-creditcard.svg) [![build status](http://img.shields.io/travis/sebastiansandqvist/s-creditcard.svg)](https://travis-ci.org/sebastiansandqvist/s-creditcard) [![NPM license](https://img.shields.io/npm/l/s-creditcard.svg)](https://www.npmjs.com/package/s-creditcard)
 

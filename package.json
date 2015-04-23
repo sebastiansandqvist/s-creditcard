@@ -1,6 +1,9 @@
 {
   "name": "s-creditcard",
-  "version": "0.0.0",
+  "version": "1.0.0",
+  "engines": {
+    "node": ">= 0.10.0"
+  },
   "description": "Returns credit card type given a number",
   "main": "index.js",
   "directories": {
