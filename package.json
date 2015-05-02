@@ -1,6 +1,6 @@
 {
   "name": "s-creditcard",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "engines": {
     "node": ">= 0.10.0"
   },
@@ -33,7 +33,7 @@
   },
   "homepage": "https://github.com/sebastiansandqvist/s-creditcard",
   "dependencies": {
-    "s-valid": "^1.1.0"
+    "s-valid": "^1.2.1"
   },
   "devDependencies": {
     "blanket": "^1.1.6",

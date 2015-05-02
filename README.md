@@ -28,6 +28,7 @@ card('4242424242424242') // returns 'visa'
 * Maestro (`maestro`)
 
 All other valid credit cards return `other`. Invalid credit cards return `none`. 
+Be sure to trim whitespace and remove non-numeric characters from the credit card number.
 
 ## License
 Copyright (c) 2015, Sebastian Sandqvist <s.github@sparque.me>
