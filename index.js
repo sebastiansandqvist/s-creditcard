@@ -2,7 +2,7 @@
 
 // ----- dependencies
 // ---------------------------------------
-var card = require('s-valid').card;
+var card = require('s-valid/card');
 
 
 // ----- exported function
