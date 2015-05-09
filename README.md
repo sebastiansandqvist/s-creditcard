@@ -21,7 +21,7 @@ card('4242424242424242') // returns 'visa'
 * American Express (`amex`)
 * Diners Club (`dinersClub`)
 * JCB (`jcb`)
-* Carte Blance (`carteBlanche`)
+* Carte Blanche (`carteBlanche`)
 * Unionpay (`unionpay`)
 * Lasercard (`lasercard`)
 * Solo (`solo`)
