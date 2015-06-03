@@ -1,6 +1,6 @@
 {
   "name": "s-creditcard",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "engines": {
     "node": ">= 0.10.0"
   },
@@ -9,9 +9,9 @@
   "directories": {
     "test": "test"
   },
+  "files":["index.js", "test", "README.md", "etc/coverage.html"],
   "scripts": {
     "test": "mocha",
-    "coverage_html": "mocha --require blanket -R html-cov > etc/coverage.html",
     "coverage": "mocha --require blanket --reporter mocha-lcov-reporter > etc/lcov.info"
   },
   "repository": {
@@ -36,7 +36,7 @@
     "s-valid": "^1.2.4"
   },
   "devDependencies": {
-    "blanket": "^1.1.6",
+    "blanket": "1.1.6",
     "chai": "^2.2.0",
     "codeclimate-test-reporter": "0.0.4",
     "gulp": "^3.8.11",
