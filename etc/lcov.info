@@ -1,14 +1,32 @@
-SF:/Users/sebastiansandqvist/Documents/Sites & Projects/apps/modules/s-creditcard/index.js
-DA:1,1
+TN:
+SF:/Users/sebastiansandqvist/Documents/Sites & Projects/apps/~modules/s-creditcard/index.js
+FN:10,creditcard
+FNF:1
+FNH:1
+FNDA:27,creditcard
 DA:5,1
 DA:10,1
 DA:12,27
 DA:13,2
 DA:16,25
-DA:17,156
+DA:17,178
 DA:18,153
 DA:19,22
 DA:24,3
 DA:25,1
 DA:28,2
+LF:11
+LH:11
+BRDA:12,1,0,2
+BRDA:12,1,1,25
+BRDA:17,2,0,153
+BRDA:17,2,1,25
+BRDA:17,3,0,178
+BRDA:17,3,1,178
+BRDA:18,4,0,22
+BRDA:18,4,1,131
+BRDA:24,5,0,1
+BRDA:24,5,1,2
+BRF:10
+BRH:10
 end_of_record

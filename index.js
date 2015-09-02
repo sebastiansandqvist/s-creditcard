@@ -2,7 +2,7 @@
 
 // ----- dependencies
 // ---------------------------------------
-var card = require('s-valid/card');
+const card = require('s-valid/card');
 
 
 // ----- exported function
@@ -10,10 +10,10 @@ var card = require('s-valid/card');
 module.exports = function creditcard(input) {
 
 	if (typeof input !== 'string') {
-		throw(new TypeError('Card input must be a string'));
+		throw (new TypeError('Card input must be a string'));
 	}
 
-	for (var type in card) {
+	for (let type in card) {
 		if (card.hasOwnProperty(type) && type !== 'generic') {
 			if (card[type](input)) {
 				return type;
