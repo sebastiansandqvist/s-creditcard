@@ -29,7 +29,7 @@ describe('Credit Card Type', function() {
 	});
 
 
-	it('should work with all card types', function() {
+	it('should work with all card types at official lengths', function() {
 
 		expect(card('4222222222222')).to.equal('visa');
 		expect(card('4111111111111111')).to.equal('visa');
@@ -64,6 +64,43 @@ describe('Credit Card Type', function() {
 		expect(card('6759000000000000')).to.equal('maestro');
 		expect(card('6799990100000000019')).to.equal('maestro');
 
+	});
+
+	it('should work with spaces', function() {
+		expect(card('4222 2222 22222')).to.equal('visa');
+		expect(card('4111 1111 1111 1111')).to.equal('visa');
+		expect(card('4242 4242 4242 4242')).to.equal('visa');
+	});
+
+	it('should work with hyphens', function() {
+		expect(card('4222-2222-22222')).to.equal('visa');
+		expect(card('4111-1111-1111-1111')).to.equal('visa');
+		expect(card('4242-4242-4242-4242')).to.equal('visa');
+	});
+
+	it('should work with all known card types at shorter lengths', function() {
+
+		expect(card('4222')).to.equal('visa');
+		expect(card('41')).to.equal('visa');
+		expect(card('42424242424242')).to.equal('visa');
+
+		expect(card('378282')).to.equal('amex');
+		expect(card('37')).to.equal('amex');
+		expect(card('378')).to.equal('amex');
+
+		expect(card('601')).to.equal('discover');
+		expect(card('6011-')).to.equal('discover');
+
+		expect(card('510')).to.equal('mastercard');
+		expect(card('5555-')).to.equal('mastercard');
+
+		expect(card('3530')).to.equal('jcb');
+		expect(card('35660')).to.equal('jcb');
+
+	});
+
+	it('should return none for exceeding length of known cards', function() {
+		expect(card('42424242424242424')).to.equal('none');
 	});
 
 	it('should return other for other card types', function() {

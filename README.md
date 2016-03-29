@@ -9,6 +9,12 @@ npm install --save s-creditcard
 
 ## Usage
 Input a credit card number (as a string) and it returns the type of credit card.
+Incomplete inputs will also return successfully for the following card types:
+* visa
+* amex
+* mastercard
+* discover
+* jcb
 
 ```javascript
 card('4242424242424242') // returns 'visa'

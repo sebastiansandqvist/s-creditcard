@@ -1,6 +1,6 @@
 {
   "name": "s-creditcard",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "engines": {
     "node": ">= 1.0.0"
   },
@@ -17,9 +17,7 @@
   ],
   "scripts": {
     "test": "mocha",
-    "posttest": "npm run lint",
-    "lint": "jscs *.js --config=./etc/.jscs.json && eslint *.js -c etc/.eslint.json",
-    "postlint": "npm run coverage",
+    "posttest": "npm run coverage",
     "coverage": "istanbul cover node_modules/mocha/bin/_mocha -dir etc --report lcovonly -- test/ -R spec",
     "postcoverage": "rm etc/coverage.json"
   },
@@ -41,9 +39,7 @@
     "url": "https://github.com/sebastiansandqvist/s-creditcard/issues"
   },
   "homepage": "https://github.com/sebastiansandqvist/s-creditcard",
-  "dependencies": {
-    "s-valid": "^1.2.4"
-  },
+  "dependencies": {},
   "devDependencies": {
     "@seabass/eslint-config": "^1.0.4",
     "chai": "^2.2.0",
