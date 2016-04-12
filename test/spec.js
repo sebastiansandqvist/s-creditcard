@@ -90,6 +90,9 @@ describe('Credit Card Type', function() {
 
 		expect(card('601')).to.equal('discover');
 		expect(card('6011-')).to.equal('discover');
+		expect(card('601100000000000')).to.equal('discover');
+		expect(card('601111111111111')).to.equal('discover');
+		expect(card('601100099013942')).to.equal('discover');
 
 		expect(card('510')).to.equal('mastercard');
 		expect(card('5555-')).to.equal('mastercard');

@@ -11,7 +11,7 @@ var cards = {
 	visa: { digits: 16, startsWith: [4] },
 	mastercard: { digits: 16, startsWith: [51, 52, 53, 54, 55] },
 	amex: { digits: 15, startsWith: [34, 37] },
-	discover: { digits: 14, startsWith: [6011] },
+	discover: { digits: 16, startsWith: [6011] },
 	jcb: { digits: 16, startsWith: [3, 2131, 1800] } // must come last since 3 is less specific than amex/diners
 };
 
