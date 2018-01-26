@@ -1,6 +1,6 @@
 # s-creditcard
 
-[![NPM version](https://img.shields.io/npm/v/s-creditcard.svg)](https://www.npmjs.com/package/s-creditcard) ![Dependencies](https://img.shields.io/david/sebastiansandqvist/s-creditcard.svg) [![build status](http://img.shields.io/travis/sebastiansandqvist/s-creditcard.svg)](https://travis-ci.org/sebastiansandqvist/s-creditcard) [![Test Coverage](https://codeclimate.com/github/sebastiansandqvist/s-creditcard/badges/coverage.svg)](https://codeclimate.com/github/sebastiansandqvist/s-creditcard) [![NPM license](https://img.shields.io/npm/l/s-creditcard.svg)](https://www.npmjs.com/package/s-creditcard)
+[![NPM version](https://img.shields.io/npm/v/s-creditcard.svg)](https://www.npmjs.com/package/s-creditcard) ![Dependencies](https://img.shields.io/david/sebastiansandqvist/s-creditcard.svg) [![build status](http://img.shields.io/travis/sebastiansandqvist/s-creditcard.svg)](https://travis-ci.org/sebastiansandqvist/s-creditcard) [![NPM license](https://img.shields.io/npm/l/s-creditcard.svg)](https://www.npmjs.com/package/s-creditcard)
 
 ## Installation
 ```bash
@@ -33,5 +33,5 @@ card('4242424242424242') // returns 'visa'
 * Solo (`solo`)
 * Maestro (`maestro`)
 
-All other valid credit cards return `other`. Invalid credit cards return `none`. 
+All other valid credit cards return `other`. Invalid credit cards return `none`.
 Be sure to trim whitespace and remove non-numeric characters from the credit card number.
